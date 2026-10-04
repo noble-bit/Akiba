@@ -1,0 +1,21 @@
+# TASK 1 - Personal Introduction
+
+name = input("Enter your full name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+university = input("Enter your university: ")
+department = input("Enter your department: ")
+fav_lang = input("Enter your favorite programming language: ")
+goal = input("Enter your programming goal: ")
+
+print("\n========================================")
+print("        STUDENT INTRODUCTION")
+print("========================================")
+print("My name is " + name + ".")
+print("I am " + age + " years old.")
+print("I live in " + city + ".")
+print("I study " + department + " at " + university + ".")
+print("My favorite programming language is " + fav_lang + ".")
+print("My programming goal:")
+print(goal)
+print("========================================")
